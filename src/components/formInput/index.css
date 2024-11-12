@@ -6,7 +6,6 @@
   border: 1px solid #333;
   padding: 2rem 3rem;
   font-size: 1.6rem;
-  margin: 2.4rem 0;
 
   &::placeholder {
     color: #132743;
@@ -20,3 +19,15 @@
 .formInput-half {
   width: 25.5rem;
 }
+
+.inputContainer {
+  margin-bottom: 2.4rem;
+
+  & > span {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #ED4C5C;
+    display: inline-block;
+  }
+}
+
