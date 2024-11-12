@@ -4,8 +4,9 @@
 
 
   & .imageCard__image {
-    max-width: 35rem;
-    border-radius: .8rem;
+    & > img {
+      border-radius: .8rem;
+    }
   }
 
   & .imageCard__content {

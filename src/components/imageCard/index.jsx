@@ -7,7 +7,7 @@ import './index.css'
 const ImageCard = ({image, heading, text, link}) => {
   return (
     <div className="imageCard">
-      <Image src={image} alt={heading} width='35rem' height='20rem' />
+      <Image src={image} alt={heading} width='35rem' height='20rem' classname={'imageCard__image'} />
       <div className='imageCard__content'>
         <Heading level={3}>{heading}</Heading>
         <Text className="imageCard__text"> {text} </Text>

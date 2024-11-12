@@ -2,21 +2,22 @@ import './index.css'
 import React, {useState} from "react";
 
 const Image = ({
-                           src,
-                           alt,
-                           width,
-                           height,
-                           loading = 'lazy',
-                           placeholder = true,
-                           srcSet,
-                           sizes,
-                           title,
-                           classname = '',
-                           loadingElement,
-                           fallbackElement,
-                           onError,
-                           ...props
-                         }) => {
+                   src,
+                   alt,
+                   width,
+                   height,
+                   loading = 'lazy',
+                   placeholder = true,
+                   srcSet,
+                   sizes,
+                   title,
+                   classname = '',
+                   loadingElement,
+                   fallbackElement,
+                   onError,
+                   ...props
+             }) => {
+
   const [isLoaded, setIsLoaded] = useState(false);
   const [hasError, setHasError] = useState(false);
 
